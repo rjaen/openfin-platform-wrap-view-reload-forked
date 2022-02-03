@@ -1,0 +1,31 @@
+{
+  "name": "openfin-platform-wrap-view-reload",
+  "version": "1.0.0",
+  "description": "An example of a primary view launching a secondary view and then the secondary view listening to the window close event so that it can reload the primary view before closing.",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnman/openfin-csb-template.git"
+  },
+  "keywords": [
+    "close-requested",
+    "wrap",
+    "platform",
+    "openfin"
+  ],
+  "author": "OpenFin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnman/openfin-csb-template/issues"
+  },
+  "homepage": "https://github.com/johnman/openfin-csb-template#readme",
+  "devDependencies": {
+    "serve": "^11.2.0"
+  },
+  "dependencies": {
+    "@types/openfin": "49.0.0"
+  }
+}

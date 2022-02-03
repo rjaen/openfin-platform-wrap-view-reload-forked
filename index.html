@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>OpenFin Template</title>
+    <script src="components/openfin-link.js"></script>
+    <script type="module" src="js/index.js"></script>
+    <link rel="stylesheet" href="style/main.css" />
+  </head>
+  <body>
+    <h1>
+      This is a basic example of a view wrapping another view to reload it on
+      close.
+    </h1>
+    <p>
+      Launch the application and click the launch secondary view button. Inspect
+      the secondary view and you will see a secondary-view.js file that adds a
+      close requested event listener. On close requested we refresh the primary
+      view and then force close the secondary window.
+    </p>
+    <p>
+      <openfin-link
+        show-in-fin="false"
+        href="fins://./config/app.platform.fin.json"
+        >Launch OpenFin Platform Application</openfin-link
+      >
+    </p>
+  </body>
+</html>

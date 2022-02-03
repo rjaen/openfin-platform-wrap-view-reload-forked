@@ -1,0 +1,51 @@
+{
+  "devtools_port": 9090,
+  "licenseKey": "request-a-key",
+  "runtime": {
+    "arguments": "--v=1 --inspect",
+    "version": "stable"
+  },
+  "platform": {
+    "uuid": "platform-view-wrap-example",
+    "applicationIcon": "https://ezvrj.csb.app//favicon.ico",
+    "autoShow": false
+  },
+  "snapshot": {
+    "windows": [
+      {
+        "defaultWidth": 800,
+        "defaultHeight": 600,
+        "defaultLeft": 0,
+        "defaultTop": 0,
+        "name": "primary-window",
+        "saveWindowState": false,
+        "backgroundThrottling": true,
+        "layout": {
+          "content": [
+            {
+              "type": "stack",
+              "width": 100,
+              "isClosable": true,
+              "reorderEnabled": true,
+              "title": "",
+              "activeItemIndex": 0,
+              "content": [
+                {
+                  "type": "component",
+                  "componentName": "view",
+                  "componentState": {
+                    "url": "https://ezvrj.csb.app/views/primary-view.html",
+                    "name": "primary-view"
+                  },
+                  "isClosable": true,
+                  "reorderEnabled": true,
+                  "title": "view"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
